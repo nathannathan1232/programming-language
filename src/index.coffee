@@ -1,3 +1,10 @@
+# This is the main file.
+# Run using (from the main directory): coffee -c -o lib src && node lib/index.js <filename>
+# Replace <filename> with the name of your file with the source code.
+#
+# For example:
+# coffee -c -o lib src && node lib/index.js examples/pi.l
+
 lex          = require('./lex.js')
 parse        = require('./parse2.js')
 exec         = require('./exec.js')
